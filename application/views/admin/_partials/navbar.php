@@ -1,11 +1,12 @@
 <nav class="navbar navbar-expand navbar-dark bg-success static-top">
 
-    <a class="navbar-brand mr-1" href="<?php echo site_url('admin') ?>">Hallo</a>
+    <a class="navbar-brand mr-1" href="<?php echo site_url('admin') ?>">Apk Rental CD & Game</a>
 
     <button class="btn btn-link btn-sm text-white order-1 order-sm-0" id="sidebarToggle" href="#">
         <i class="fas fa-bars"></i>
     </button>
 
+    
     <!-- Navbar Search -->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="input-group">
@@ -54,10 +55,10 @@
                 <i class="fas fa-user-circle fa-fw"></i> Admin
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">Settings</a>
-                <a class="dropdown-item" href="#">Activity Log</a>
+                <a class="dropdown-item" href="Login">Login</a>
+                <a class="dropdown-item" href="Register">Register</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
+                <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/login/logout" data-toggle="modal" data-target="#logoutModal">Logout</a>
             </div>
         </li>
     </ul>

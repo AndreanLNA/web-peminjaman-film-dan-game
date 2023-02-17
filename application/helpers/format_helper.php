@@ -1,6 +1,6 @@
 <?php
 
-    function format_rupiah()
+    function format_data()
     {
-    	return " Rp 300.000 ";
+    	return "Untuk pergi ke halaman memasukkan ataupun melihat data silahkan gunakan menu di sebelah kiri";
     }
