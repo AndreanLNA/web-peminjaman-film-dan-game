@@ -14,7 +14,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="pagesDropdown">
             <a class="dropdown-item" href="<?php echo site_url('admin/C_dgame/tambah') ?>">New Data</a>
-            <a class="dropdown-item" href="<?php echo site_url('admin/C_subpos') ?>">List Data</a>
+            <a class="dropdown-item" href="<?php echo site_url('admin/C_dgame') ?>">List Data</a>
             <a class="dropdown-item" href="<?php echo site_url('admin/C_rgame/tambah') ?>">New Rent</a>
             <a class="dropdown-item" href="<?php echo site_url('admin/C_rgame') ?>">List Rent</a>
         </div>
